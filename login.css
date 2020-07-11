@@ -33,6 +33,10 @@ label {
     font-size: 12px !important;
 }
 
+.prefix {
+    color: #9e9e9e;
+}
+
 .checkbox {
     color: #26a69a;
     font-size: 11px !important;
