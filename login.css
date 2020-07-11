@@ -36,7 +36,8 @@ label {
 .checkbox {
     color: #26a69a;
     font-size: 11px !important;
-    padding-right: 111px;
+    padding-right: 98px;
+    padding-left: 47px !important;
 }
 
 span.checkbox::before {
