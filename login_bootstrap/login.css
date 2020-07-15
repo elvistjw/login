@@ -1,0 +1,41 @@
+body {
+    background-color: #076E65;
+}
+
+.main{
+    margin-right: 0px;
+}
+
+.main { 
+    margin-top: 5%;
+}
+
+.fogot-pass {
+    text-align: end;
+}
+
+.butn {
+    cursor: pointer;
+    color: #076E65;
+}
+
+.green {
+    color: #076E65;
+}
+
+button.btn {
+    background-color: #076E65;
+    color: #ffffff;
+    border-radius: 21px;
+    width: 9vw;
+}
+
+img{
+    /* background-color: #cccccc;
+    border-radius: 100%;
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+    box-shadow: 0px 2px 2px #969191;   */
+    width: 14vw;
+}

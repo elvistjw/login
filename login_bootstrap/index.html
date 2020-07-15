@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <title>Login</title>
+    <meta name="description" content="Login_bootstrap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div class="main row">
+        <div class="card col-md-4 offset-md-4">
+            <div class="card-body">
+                <form>
+                    <div class="text-center">
+                        <img src="assets/kalil.png" class="rounded" alt="profile">
+                    </div>
+                    <strong class="green">Usuário</strong>
+                    <div class="form-group mt-1">
+                        <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <span class="material-icons">person</span>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Insira seu nome aqui!">
+                        </div>
+                    </div>
+                    <strong class="green">Senha</strong>
+                    <div class="form-group mt-1">
+                        <label class="sr-only" for="inlineFormInputGroup">Senha</label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <span class="material-icons">lock</span>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Insira sua senha aqui!">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="custom-control custom-checkbox col-md-5 ml-3">
+                            <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                            <label class="custom-control-label green" for="customControlAutosizing">Lembrar-me</label>
+                        </div>
+                        <div class="forgot-pass col-md-6 pr-0" style="text-align: end;">
+                            <span class="butn">Esqueci minha senha!</span>
+                        </div>
+                    </div>
+                    <div class="row mt-4 justify-content-center">
+                        <button type="submit" class="btn">Entrar</button>
+                    </div>
+                    <div class="row mt-4 justify-content-center">
+                       <span class="green">Não tem usuário?</span> 
+                       <strong class="butn ml-1">Entre em contato conosco.</strong>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
